@@ -5,7 +5,7 @@ name: first ci/cd
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   
 
 jobs:

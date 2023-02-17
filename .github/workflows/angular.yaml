@@ -30,4 +30,5 @@ jobs:
           npm install -g @angular/cli
           npm install -g @angular-devkit/build-angular
           ng v
+          ng config -g cli.warnings.versionMismatch false
           ng build 
